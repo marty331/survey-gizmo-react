@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Survey from '../components/Survey';
 
 export class Landing extends Component {
   render() {
@@ -7,7 +8,7 @@ export class Landing extends Component {
       <div style={gridStyle}>
         <div></div>
         <div style={getStyle}>
-          <Link style={linkStyle} to='/survey'>Take Survey</Link>
+          <Survey   />
           <br/>
           <Link style={linkStyle} to='/product'>No thanks, I just want my product.</Link>
         </div>
