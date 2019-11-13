@@ -1,10 +1,10 @@
-## SurveyGizmo React App
+# SurveyGizmo React App
 
 This project was created to allow the user to retrieve a survey from SurveyGizmo, fill out the survey and then submit the survey.
 
 It has two main components - A React app for the front end and a Node app to connect to the SurveyGizmo APIs.
 
-# Running the project
+## Running the project
 
 To run this project:
 - pull the repository to your local machine
